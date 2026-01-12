@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Exercicis formularis | exercicis 6.1 i 6.2</title>
+    <script src="../JS/exercicis_forms_Events.js"></script>
+</head>
+
+<body>
+
+<form name="formulari_i">
+    <p>
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey">
+    </p>
+    <p>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse">
+    </p>
+    <button type="button" onclick="executarF1()">Enviar formulari i</button>
+</form>
+
+<form name="formulari_ii">
+    <input type="radio" name="quest" value="Sí" checked> Sí<br>
+    <input type="radio" name="quest" value="No"> No<br>
+    <input type="radio" name="quest" value="NS/NC"> NS/NC<br>
+    <button type="button" onclick="executarF2()">Enviar formulari ii</button>
+</form>
+
+<form name="formulari_iii">
+    <input type="checkbox" name="yes" value="Sí" checked> Sí<br>
+    <input type="checkbox" name="no" value="No"> No<br>
+    <input type="checkbox" name="indef" value="NS/NC"> NS/NC<br>
+    <button type="button" onclick="executarF3()">Enviar formulari iii</button>
+</form>
+
+<form name="formulari_iv">
+    <select name="opcions">
+        <option value="Sí">Sí</option>
+        <option value="No">No</option>
+        <option value="NS/NC">NS/NC</option>
+    </select><br><br>
+    <button type="button" onclick="executarF4()">Enviar formulari iv</button>
+</form>
+
+</body>
+</html>

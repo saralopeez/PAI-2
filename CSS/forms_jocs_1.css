@@ -1,0 +1,16 @@
+#mensaje {
+    visibility: hidden;          /* El missatge comença ocult */
+    background-color: #e0e0e0;   /* Fons gris clar */
+    border: 1px solid #999;      /* Vora */
+    padding: 5px;                /* Espai interior */
+    margin-left: 5px;            /* Separació del (i) */
+    border-radius: 4px;          /* Cantonades arrodonides */
+    font-size: 0.9em;
+    display: inline-block;
+    position: absolute;
+}
+
+b {
+    color: blue;                 /* Color del (i) */
+    cursor: pointer;             /* Mà en passar el ratolí */
+}

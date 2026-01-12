@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Formularis i DOM</title>
+
+    <script src="../JS/exercici_forms_DOM.js"></script>
+</head>
+
+<body>
+
+<form name="form1">
+
+    <p>
+        Nom:<br>
+        <input type="text"
+               name="nom"
+               value="Escriu el teu nom"
+               onclick="entrarNom(this)"
+               onblur="sortirNom(this)">
+    </p>
+
+    <p>
+        Afegir comentaris:
+        <input type="checkbox"
+               name="afegir"
+               onclick="controlarComentaris(this)">
+    </p>
+
+    <p>
+        <textarea name="comentaris" disabled></textarea>
+    </p>
+
+    <p>
+        <button type="button"
+                name="enviar"
+                onclick="enviarForm()">
+            Enviar
+        </button>
+    </p>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+h1{
+    font-family: cambria;
+    font-weight: normal;
+}
+
+nav {
+    font-variant-caps: all-small-caps; 
+    font-size: 20px
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 20px;
+}
+
+header{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+
+nav{
+    width: 80%;
+    height: 100px;
+    float:left;
+}
+
+div#primera,
+div#segona,
+div#tercera{
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.centrat{margin:0 auto; width:95%}
+.centrat p{
+    font-size: 20px;
+    font-variant-caps: all-small-caps;
+    text-align: center;
+}
