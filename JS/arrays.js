@@ -202,15 +202,16 @@ Exemple: [1,2,3,4,5] → [5,4,3,2,1]
 ******
 Donada la definició d’aquesta taula:
 let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
-
-let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
 let invertida = [];
 
-for (let i = taula.length - 1; i >= 0; i--) {
-    invertida.push(taula[i])
-}
+let j = 0; // índice para la tabla invertida
 
+for (let i = taula.length - 1; i >= 0; i--) {
+    invertida[j] = taula[i];
+    j++;
+}
 console.log(invertida);
+
 
 21.16.- Fes un programa que demani un número a l’usuari (fent servir prompt()) i
 escrigui a la consola si es troba o no a la taula. IMPORTANT: Fes-lo fent servir un
