@@ -149,12 +149,14 @@ valors parells de la taula i que escrigui el contingut d’aquesta nova taula a 
 let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
 let parells = [];
 
-for (let i = 0; i < taula.length; i++) {
-    if (taula[i] % 2 === 0) {
-        parells.push(taula[i]);
-    }
-}
+let j = 0; // índice auxiliar
 
+for (let i = 0; i < taula.length; i++) {
+   if (taula[i] % 2 === 0) {
+       parells[j] = taula[i];
+       j++;
+   }
+}
 console.log(parells);
 
 21.13.- Fes un programa que demani a l’usuari un valor (fent servir prompt()) i
